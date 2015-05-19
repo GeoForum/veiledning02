@@ -1,0 +1,11 @@
+shp2pgsql -d -s 25832 '/mnt/jbod_01/jonas/freelance/ellevator.net/GeoForum.no/data/kartverket/adm_enheter/shp/kommuner.shp' test01.kommuner > kommuner.sql
+
+  # Smaller data set for testing:
+  head -50 kommuner.sql > kommuner2.sql
+  echo "COMMIT;" >> kommuner2.sql
+  add COMMIT; to end of file, then run it.
+  psql -h localhost -p 5433 -d jonas_test_01 -U postgres -f kommuner2.sql > kommuner2.sql.log
+
+psql -h localhost -p 5433 -d jonas_test_01 -U postgres -f kommuner.sql > kommuner.sql.log
+
+
