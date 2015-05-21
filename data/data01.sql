@@ -14,3 +14,4 @@ COPY test01.Arbeidsledighet
   FROM '/mnt/jbod_01/jonas/freelance/ellevator.net/GeoForum.no/repos/veiledning02/data/Arbeidsledighet_.csv' 
   DELIMITER ',' CSV;
 
+ALTER TABLE test01.arbeidsledighet ADD COLUMN gid BIGSERIAL PRIMARY KEY;

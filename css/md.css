@@ -1,0 +1,9 @@
+#readme img, #markdow-wrapper img {
+  /*border: 1px solid #AAAAAA;*/
+  padding: .3em;
+  margin: .5em;
+  -webkit-box-shadow: 0px 0px 0.3em 0.3em rgba(204,204,204,1);
+  -moz-box-shadow: 0px 0px 0.3em 0.3em rgba(204,204,204,1);
+  box-shadow: 0px 0px 0.3em 0.3em rgba(204,204,204,1);
+  border-radius: 5px;
+}

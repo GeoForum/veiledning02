@@ -8,4 +8,4 @@ shp2pgsql -d -s 25832 '/mnt/jbod_01/jonas/freelance/ellevator.net/GeoForum.no/da
 
 psql -h localhost -p 5433 -d jonas_test_01 -U postgres -f kommuner.sql > kommuner.sql.log
 
-
+CREATE INDEX kommuner_gix ON test01.kommuner USING GIST (geom);
