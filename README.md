@@ -85,6 +85,4 @@ Som det sees finnes forskjellige måter å dele kartet på - enten som simpelt l
 
 Link til kart: http://cdb.io/1ehT0dm
 
-Live iframe eksempel:
-<iframe width='100%' height='520' frameborder='0' src='https://ellvtr.cartodb.com/viz/34101988-ffb1-11e4-82ca-0e0c41326911/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
+Live iframe eksempel på github pages: http://geoforum.github.io/veiledning02/
