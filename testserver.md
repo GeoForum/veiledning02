@@ -1,4 +1,4 @@
-# Server for test
+# Test-server
 
 ## Sett opp simpel lokal http server
 

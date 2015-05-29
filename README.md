@@ -83,6 +83,6 @@ Når du er klar til å publisere kartet, klikk på "Visualize" øverst til høyr
 
 Som det sees finnes forskjellige måter å dele kartet på - enten som simpelt link som tar brukeren til kartet eller en iframe som kan legges på en annen webside - eller integrert med json data som kan hentes inn i en annen applikasjon.
 
-Link til kart: http://cdb.io/1ehT0dm
+Link til kart: https://geoforum.cartodb.com/viz/32d6c5d8-05fd-11e5-b999-0e9d821ea90d/public_map
 
 Live iframe eksempel på github pages: http://geoforum.github.io/veiledning02/

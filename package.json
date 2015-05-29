@@ -1,7 +1,7 @@
 {
   "name": "veiledning02",
   "version": "1.0.0",
-  "description": "## Eksempel 1",
+  "description": "Veiledning 2",
   "main": "srv.js",
   "dependencies": {
     "connect": "^3.3.5",
